@@ -154,7 +154,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(2, 48, 71, 0.5), rgba(2, 48, 71, 0.5)), url('/images/Banner.jpg');
+    background: linear-gradient(rgba(2, 48, 71, 0.5), rgba(2, 48, 71, 0.5)), url('../images/Banner.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -477,7 +477,7 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 
 /* Footer */
 footer {
-    background: linear-gradient(rgba(2, 48, 71, 0.5), rgba(2, 48, 71, 0.5)), url('/images/footer.jpg');
+    background: linear-gradient(rgba(2, 48, 71, 0.5), rgba(2, 48, 71, 0.5)), url('../images/footer.jpg');
     background-size: cover;
     background-position: center;
     color: white;
