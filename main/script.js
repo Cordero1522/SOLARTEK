@@ -11,7 +11,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 });
 
 // URL de tu Google Apps Script (REEMPLAZA ESTA URL CON LA TUYA)
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwRtKnwrmdNKqRgDqdzyggTTbf7Q96ldpXROYNc_v6MoweDeUtqbwm_M8rzJAViNG8B6g/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyu8wwO9shSOw_zZuM2c5IIkigXYVX1ROQAnJOPfTJyuwiPOWh3Vfj16pYJo4iwcrwXxw/exec';
 
 // Manejo del formulario
 document.getElementById('quoteForm').addEventListener('submit', function(e) {
