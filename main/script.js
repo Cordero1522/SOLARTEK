@@ -36,7 +36,7 @@ document.getElementById('quoteForm').addEventListener('submit', function(e) {
     // Enviar datos a Google Apps Script
     fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
-        mode: 'no-cors', // Importante para evitar problemas CORS
+        //mode: 'no-cors', // Importante para evitar problemas CORS
         headers: {
             'Content-Type': 'application/json',
         },
