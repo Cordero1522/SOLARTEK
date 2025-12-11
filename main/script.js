@@ -32,7 +32,7 @@ form.addEventListener("submit", async function (e) {
             formDataObj[key] = value;
         }
 
-        const scriptURL = "https://script.google.com/macros/s/AKfycbyde7nc0n_UXM8v4LSAnnuXhEQhUJJPEU0bdDYf2ibtVSYj4_O9BB4WTPRfnFgdm7Pi/exec";
+        const scriptURL = "https://script.google.com/macros/s/AKfycbwmnE8bHncypwSxj664qX_C7twiF5GOTNBfBsyTRzoHfftHQl1KPCKT9gOb_ta_5wb_ew/exec";
 
         const response = await fetch(scriptURL, {
             method: "POST",
